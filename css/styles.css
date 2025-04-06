@@ -1,0 +1,53 @@
+/* ADD FONTS HERE!!! */
+
+
+
+/* Site colours */
+/* OLD FROM DINO SITE */
+/* :root {
+    --backgroundColour: #1A1D1A;
+    --textColour: #ffffff;
+    --textColourALT: #000000;
+    --siteBackdrop: #354F52;
+    --headingColour: #EB5439;
+    --accentColourLIGHTGRN: #84a98c;
+    --accentColourDARKGRN: #52796f;
+} */
+/* UPDATED COLOURS */
+:root {
+    --backgroundColour: #1A1D1A;
+    --textColour: #ffffff;
+    --textColourALT: #000000;
+    --siteBackdrop: #313131;
+    --headingColour: #FA8334;
+    --accentColourLIGHTBLUE: #337CA0;
+    --accentColourDARKBLUE: #27233A;
+}
+
+/* For links */
+.sitebar_container {
+    /* background-image: url(/images/banner_pattern.png); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: var(--accentColourDARKBLUE);
+    border-bottom: 4px solid var(--accentColourDARKBLUE);
+    box-shadow: 0 4px 8px var(--textColourALT);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+/* Background stuff */
+body {
+    background-color: var(--backgroundColour);
+    /* background-image: url(/images/background_tile_pattern.png); */
+    background-size: 250px;
+    
+    
+    color: var(--textColour);
+}
