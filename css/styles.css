@@ -52,12 +52,12 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    color: var(--headingColour);
+    color: var(--accentColourLIGHTBLUE);
     transform: scale(1.1);
 }
 a:focus {
     outline: 4px solid var(--headingColour);
-    color: var(--textColour);
+    color: var(--accentColourDARKBLUE);
     text-shadow: 2px 2px #000000;
     text-decoration: none;
 }
@@ -126,4 +126,58 @@ p {
     /* justify-content: center; */
     text-align: center;
 }
+
+
+/* Flexbox */
+
+
+/* Misc styling */
+.align-content-center {
+    align-content: center;
+    text-align: center;
+}
+.titlePicture {
+    /* align-content: center; */
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Footer */
+footer {
+    background-color: var(--headingColour);
+    border-top: 4px solid var(--accentColourDARKBLUE);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20%;
+    margin-bottom: 0;
+    /* Dont ask me why this works, I have theories, but I don't wish to reopen this wound */
+    margin-left: -8%;
+    /* ^^^^ */
+    margin-right: 0;
+    padding: 0px, 0px;
+    background-size: 100%;
+  
+  
+    p.footer {
+      font-size: 20px;
+      padding: 8px;
+      text-shadow: 1px 1px 0px #000000a2;
+      background-color: var(--siteBackdrop);
+      border: none;
+  
+  
+      /* Non-header link styles */
+      /* a {
+        color: rgb(218, 61, 61);
+        text-decoration: none;
+      }
+      a :hover {
+        border: 4px solid var(--accentColourLIGHTGRN);
+        ;
+      } */
+    }
+  }
   
