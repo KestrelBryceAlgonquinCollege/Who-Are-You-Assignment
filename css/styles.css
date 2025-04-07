@@ -128,7 +128,55 @@ p {
 }
 
 
-/* Flexbox */
+/* Grid properties */
+.grid {
+    display: grid;
+}
+.container {
+    display: inline-grid;
+}
+.six-col {
+    grid-template-columns: 60px 60px 60px 60px 60px 60px;
+}
+
+
+#grid-container {
+    height: auto;
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* grid-template-rows: auto auto auto auto; */
+    grid-gap: 10px;
+    /* Keeping it visible for testing purposes */
+    background-color: var(--accentColourLIGHTBLUE);
+    padding: 10px;
+}
+
+/* Dragon styling */
+.DragonTitle {
+    grid-column-start: 7;
+    grid-row-start: 1;
+}
+.DragonDescription {
+    text-align: right;
+    grid-column-start: 7;
+    /* grid-column-end: 6; */
+    grid-row-start: 1;
+    grid-row: span 2;
+}
+.DragonLeftButton {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.DragonSlideshow {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.DragonRightButton {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
 
 
 /* Misc styling */
