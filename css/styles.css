@@ -135,6 +135,9 @@ p {
 .container {
     display: inline-grid;
 }
+.two-col {
+    grid-template-columns: 60px 60px;
+}
 .six-col {
     grid-template-columns: 60px 60px 60px 60px 60px 60px;
 }
@@ -151,6 +154,38 @@ p {
     /* Keeping it visible for testing purposes */
     background-color: var(--accentColourLIGHTBLUE);
     padding: 10px;
+}
+
+/* Characters styling */
+/* For Page */
+.CharacterPageTitle {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.CharacterPageDescription {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+/* For Character (in content) */
+.CharacterMainName {
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+.CharacterMainDescription {
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+.CharacterLeftButton {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.CharacterMainCarousel {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.CharacterRightButton {
+    grid-column-start: 4;
+    grid-row-start: 1;
 }
 
 /* Dragon styling */
