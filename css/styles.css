@@ -44,7 +44,7 @@
 }
 
 /* Formatting links */
-nav a {
+nav a:link {
     padding-left: 10px;
     padding-right: 10px;
     color: var(--textColour);
@@ -53,13 +53,16 @@ nav a {
     text-shadow: 2px 2px 0px #000000a2;
     text-decoration: none;
 }
+nav a:visited {
+    color: var(--accentColourDARKBLUE);
+}
 nav a:hover {
     color: var(--accentColourLIGHTBLUE);
     transform: scale(1.1);
 }
-a:focus {
-    outline: 4px solid var(--headingColour);
-    color: var(--accentColourDARKBLUE);
+nav a:active {
+    /* outline: 4px solid var(--headingColour); */
+    color: var(--textColourALT);
     text-shadow: 2px 2px #000000;
     text-decoration: none;
 }
