@@ -5,13 +5,18 @@
 } */
 
 .carousel-imported {
-    grid-column-start: 2;
-    grid-row-start: 1;
+    grid-column-start: span 2;
+    grid-column-end: 3;
+    grid-row-start: span 3;
+    grid-row-end: 3;
 
     /* position: relative; */
     max-width: 600px;
     /* width: 800px; */
-    margin: auto;
+
+    margin-left: 70px;
+
+    /* margin: auto; */
     overflow: hidden;
 }
 

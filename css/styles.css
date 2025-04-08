@@ -252,28 +252,28 @@ p {
 
 /* Dragon styling */
 .DragonTitle {
-    grid-column-start: 7;
+    grid-column-start: 2;
     grid-row-start: 1;
 }
 .DragonDescription {
     text-align: right;
-    grid-column-start: 7;
+    grid-column-start: 2;
     /* grid-column-end: 6; */
-    grid-row-start: 1;
-    grid-row: span 2;
+    grid-row-start: 2;
+    /* grid-row: span 2; */
 }
-.DragonLeftButton {
+/* .DragonLeftButton {
+    grid-column-start: 1;
+    grid-row-start: 2;
+} */
+.DragonPicture {
     grid-column-start: 1;
     grid-row-start: 2;
 }
-.DragonSlideshow {
-    grid-column-start: 2;
-    grid-row-start: 2;
-}
-.DragonRightButton {
+/* .DragonRightButton {
     grid-column-start: 3;
     grid-row-start: 2;
-}
+} */
 
 
 /* Misc styling */
