@@ -42,8 +42,8 @@ button {
 }
 
 .prev {
-    grid-column-start: 1;
-    grid-row-start: 2;
+    /* grid-column-start: 1;
+    grid-row-start: 2; */
 
     margin-top: auto;
     margin-bottom: auto;
@@ -52,8 +52,8 @@ button {
 }
 
 .next {
-    grid-column-start: 3;
-    grid-row-start: 2;
+    /* grid-column-start: 3;
+    grid-row-start: 2; */
 
     margin-top: auto;
     margin-bottom: auto;

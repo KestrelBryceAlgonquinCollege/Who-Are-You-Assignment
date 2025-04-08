@@ -19,8 +19,8 @@
             <div class="sitebar_container">
                 <div class="navText">
                     <nav>
-                        <a href="Dragon.html"><b>Dragon</b></a>
                         <a href="index.html"><b>Home</b></a>
+                        <a href="Dragon.html"><b>Dragon</b></a>
                     </nav>
                 </div>
             </div>
@@ -40,7 +40,7 @@
         <br><br>
 
         <!-- Page content -->
-        <div id="grid-container-six">
+        <div id="grid-container-four">
             <!-- <div class="CharacterLeftButton">
                 <img src="/images/Characters/Left-Button.svg" alt="Button pointing left">
             </div> -->
@@ -53,6 +53,12 @@
                 <img src="/images/Characters/The-Sword-Of-Scorching.png" alt=""> -->
             <!-- </div> -->
 
+            <div class="CharacterLeftButton">
+                <button class="prev" onclick="changeSlide(-1)">
+                    <img src="/images/Characters/Left-Button.svg" alt="">
+                </button>
+            </div>
+
             <div class="carousel-imported">
                 <div class="carousel-images-imported">
                     <img src="/images/Characters/The-Hat.jpg" alt="Image 1">
@@ -60,15 +66,13 @@
                     <img src="/images/Characters/The-Shield.png" alt="Image 3">
                     <img src="/images/Characters/The-Sword-Of-Scorching.png" alt="Image 3">
                 </div>
-                
             </div>
 
-            <button class="prev" onclick="changeSlide(-1)">
-                <img src="/images/Characters/Left-Button.svg" alt="">
-            </button>
-            <button class="next" onclick="changeSlide(1)">
-                <img src="/images/Characters/Right-Button.svg" alt="">
-            </button>
+            <div class="CharacterRightButton">
+                <button class="next" onclick="changeSlide(1)">
+                    <img src="/images/Characters/Right-Button.svg" alt="">
+                </button>
+            </div>
 
 
             <!-- <div class="CharacterRightButton">
@@ -80,13 +84,8 @@
             </div>
         </div>
 
-
-        
-    
-        <script src="/scripts/Imported-Carousel.js"></script>
-        
         <!-- Adding Carousel JavaScript -->
-        <!-- <script src="scripts/carousel.js"></script> -->
+        <script src="/scripts/Imported-Carousel.js"></script>
     </body>
 </main>
 <!-- Footer -->
