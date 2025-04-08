@@ -1,5 +1,6 @@
-/* ADD FONTS HERE!!! */
-
+/* Header text: Akaya Telivigala */
+/* Body text: Winky Sans */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
 
 /* Site colours */
@@ -48,6 +49,7 @@ nav a {
     padding-right: 10px;
     color: var(--textColour);
     background-color: #00000055;
+    font-family: "Akaya Telivigala", sans-serif;
     text-shadow: 2px 2px 0px #000000a2;
     text-decoration: none;
 }
@@ -79,7 +81,7 @@ main {
 
 /* Text */
 h1 {
-    /* font-family: "Protest Strike", sans-serif; */
+    font-family: "Akaya Telivigala", sans-serif;
     padding: 10px;
     border-radius: 5px;
     color: var(--headingColour);
@@ -91,7 +93,7 @@ h1 {
 }
   
 h2 {
-    /* font-family: "Protest Strike", sans-serif; */
+    font-family: "Akaya Telivigala", sans-serif;
     padding: 10px;
     border-radius: 5px;
     color: var(--textColour);
@@ -104,7 +106,7 @@ h2 {
 }
   
 p {
-    /* font-family: "Carlito", sans-serif; */
+    font-family: "Winky Sans", sans-serif;
     font-size: 20px;
     padding: 8px;
     text-shadow: 1px 1px 0px #000000a2;
