@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/Imported-Styles.css">
 </head>
 <main>
     <body>
@@ -42,12 +43,13 @@
             </div>
 
             <!-- <div id="carousel" class="CharacterMainCarousel"></div> -->
-            <div class="CharacterMainCarousel">
-                <img src="/images/Characters/The-Hat.jpg" alt="Picture of enchanted hat with owl characteristics">
+            <!-- <div class="CharacterMainCarousel">
+                <img src="/images/Characters/The-Hat.jpg" alt="Picture of enchanted hat with owl characteristics"> -->
                 <!-- <img src="/images/Characters/The-Scarecrow.png" alt="">
                 <img src="/images/Characters/The-Shield.png" alt="">
                 <img src="/images/Characters/The-Sword-Of-Scorching.png" alt=""> -->
-            </div>
+            <!-- </div> -->
+
 
             <div class="CharacterRightButton">
                 <img src="/images/Characters/Right-Button.svg" alt="Button Pointing Right">
@@ -57,6 +59,20 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, voluptatum, non commodi neque perspiciatis enim nulla ea praesentium omnis suscipit dolor totam sint. Quo quibusdam molestias blanditiis quidem, quam alias.</p>
             </div>
         </div>
+
+
+        <div class="carousel-imported">
+            <div class="carousel-images-imported">
+                <img src="/images/Characters/The-Hat.jpg" alt="Image 1">
+                <img src="/images/Characters/The-Scarecrow.png" alt="Image 2">
+                <img src="/images/Characters/The-Shield.png" alt="Image 3">
+                <img src="/images/Characters/The-Sword-Of-Scorching.png" alt="Image 3">
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
+        </div>
+    
+        <script src="Imported-Carousel.js"></script>
         
         <!-- Adding Carousel JavaScript -->
         <!-- <script src="scripts/carousel.js"></script> -->
