@@ -5,7 +5,10 @@
 } */
 
 .carousel-imported {
-    position: relative;
+    grid-column-start: 2;
+    grid-row-start: 1;
+
+    /* position: relative; */
     max-width: 600px;
     /* width: 800px; */
     margin: auto;
@@ -34,9 +37,21 @@ button {
 }
 
 .prev {
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
     left: 10px;
 }
 
 .next {
+    grid-column-start: 3;
+    grid-row-start: 2;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
     right: 10px;
 }

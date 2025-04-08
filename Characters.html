@@ -38,9 +38,9 @@
 
         <!-- Page content -->
         <div id="grid-container-six">
-            <div class="CharacterLeftButton">
+            <!-- <div class="CharacterLeftButton">
                 <img src="/images/Characters/Left-Button.svg" alt="Button pointing left">
-            </div>
+            </div> -->
 
             <!-- <div id="carousel" class="CharacterMainCarousel"></div> -->
             <!-- <div class="CharacterMainCarousel">
@@ -50,10 +50,25 @@
                 <img src="/images/Characters/The-Sword-Of-Scorching.png" alt=""> -->
             <!-- </div> -->
 
-
-            <div class="CharacterRightButton">
-                <img src="/images/Characters/Right-Button.svg" alt="Button Pointing Right">
+            <div class="carousel-imported">
+                <div class="carousel-images-imported">
+                    <img src="/images/Characters/The-Hat.jpg" alt="Image 1">
+                    <img src="/images/Characters/The-Scarecrow.png" alt="Image 2">
+                    <img src="/images/Characters/The-Shield.png" alt="Image 3">
+                    <img src="/images/Characters/The-Sword-Of-Scorching.png" alt="Image 3">
+                </div>
+                <button class="prev" onclick="changeSlide(-1)">
+                    <img src="/images/Characters/Left-Button.svg" alt="">
+                </button>
+                <button class="next" onclick="changeSlide(1)">
+                    <img src="/images/Characters/Right-Button.svg" alt="">
+                </button>
             </div>
+
+
+            <!-- <div class="CharacterRightButton">
+                <img src="/images/Characters/Right-Button.svg" alt="Button Pointing Right">
+            </div> -->
 
             <div class="CharacterMainDescription">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, voluptatum, non commodi neque perspiciatis enim nulla ea praesentium omnis suscipit dolor totam sint. Quo quibusdam molestias blanditiis quidem, quam alias.</p>
@@ -61,20 +76,7 @@
         </div>
 
 
-        <div class="carousel-imported">
-            <div class="carousel-images-imported">
-                <img src="/images/Characters/The-Hat.jpg" alt="Image 1">
-                <img src="/images/Characters/The-Scarecrow.png" alt="Image 2">
-                <img src="/images/Characters/The-Shield.png" alt="Image 3">
-                <img src="/images/Characters/The-Sword-Of-Scorching.png" alt="Image 3">
-            </div>
-            <button class="prev" onclick="changeSlide(-1)">
-                <img src="/images/Characters/Left-Button.svg" alt="">
-            </button>
-            <button class="next" onclick="changeSlide(1)">
-                <img src="/images/Characters/Right-Button.svg" alt="">
-            </button>
-        </div>
+        
     
         <script src="/scripts/Imported-Carousel.js"></script>
         
