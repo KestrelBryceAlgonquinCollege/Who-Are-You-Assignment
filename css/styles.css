@@ -143,13 +143,26 @@ p {
 }
 
 
-#grid-container {
+#grid-container-six {
     height: auto;
     display: grid;
     margin-left: 20px;
     margin-right: 20px;
     grid-template-columns: auto auto auto auto auto auto;
-    /* grid-template-rows: auto auto auto auto; */
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    /* Keeping it visible for testing purposes */
+    background-color: var(--accentColourLIGHTBLUE);
+    padding: 10px;
+}
+
+#grid-container-two {
+    height: auto;
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
     grid-gap: 10px;
     /* Keeping it visible for testing purposes */
     background-color: var(--accentColourLIGHTBLUE);
@@ -161,6 +174,8 @@ p {
 .CharacterPageTitle {
     grid-column-start: 1;
     grid-row-start: 1;
+
+    height: fit-content;
 }
 .CharacterPageDescription {
     grid-column-start: 2;
