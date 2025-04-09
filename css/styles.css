@@ -199,7 +199,7 @@ p {
     grid-column-start: 1;
     grid-row-start: 1;
 
-    height: fit-content;
+    /* height: fit-content; */
 }
 .CharacterPageDescription {
     grid-column-start: 2;
