@@ -4,7 +4,7 @@
     padding: 0;
 } */
 
-.carousel-imported {
+.carousel-new {
     grid-column-start: span 2;
     grid-column-end: 3;
     grid-row-start: span 3;
@@ -20,12 +20,12 @@
     overflow: hidden;
 }
 
-.carousel-images-imported {
+.carousel-images-new {
     display: flex;
     transition: transform 0.5s ease;
 }
 
-.carousel-images-imported img {
+.carousel-images-new img {
     max-width: 100%;
     display: block;
 }
